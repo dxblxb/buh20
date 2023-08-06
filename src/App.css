@@ -1,0 +1,52 @@
+:root {
+  --color-main: #fbed9e;
+  --color-topnav: #f2f2f2;
+  --color-content: #ffffff;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-topnav);
+}
+.App {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 0 0 5px 5px;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-main);
+}
+.top-logo {
+  padding: 3px 5px;
+  height: 35px;
+  background-color: var(--color-main);
+  border-bottom: 1px solid gray;
+}
+.navbar-top {
+  display: flex;
+  padding: 1px;
+  height: 35px;
+  background-color: var(--color-topnav);
+  border-bottom: 1px solid gray;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.navbar {
+  padding: 5px;
+  height: 100%;
+  width: 200px;
+  background-color: var(--color-main);
+}
+.content {
+  margin: 0 5px 5px 5px;
+  /* height: 600px; */
+  width: 100%;
+  background-color: var(--color-content);
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}

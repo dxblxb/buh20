@@ -7,8 +7,12 @@ import App from "./App";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
+const client = new QueryClient();
+
 root.render(
   <StrictMode>
-    <App />
+    <QueryClientProvider client={client}>
+      <App />
+    </QueryClientProvider>
   </StrictMode>
 );
